@@ -1,7 +1,7 @@
 import '/buttons/button.css';
 
 export function Buttons() {
-    return <>
+    return <div>
         <div class="buttons">
             <div class="small">
                 <button class="button-number">1</button>
@@ -22,9 +22,9 @@ export function Buttons() {
                 <button class="button-del">del</button>
             </div>
             <div class="big">
-                <button class="big-button-equals">=</button>
-                <button class="big-button-reset">reset</button>
+                <button class="button-equals">=</button>
+                <button class="button-reset">reset</button>
             </div>
         </div>
-    </>
+    </div>
 }
