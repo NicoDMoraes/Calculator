@@ -23,15 +23,17 @@
     background: #eae3db;
     border: none;
     border-radius: 2px;
-    width: 4em;
+    width: 3em;
     height: 2em;
     color: #3b4664;
     font-size: bold;
+    box-shadow: 0 2px 0px 0px#b2a399;
 }
 
 .del {
     background: #637298;
     color: #FFFF;
+    box-shadow: 0 2px 0px 0px #434f76;
 }
 
 .big {
@@ -43,16 +45,18 @@
 .big-button {
     border: none;
     border-radius: 2px;
-    width: 9em;
+    width: 7.25em;
     height: 2em;
 }
 
 .reset {
     background: #637298;
     color: #FFFF;
+    box-shadow: 0 2px 0px 0px #434f76;
 }
 
 .equals {
     background: #d13f30;
     color: #ffff;
+    box-shadow: 0 2px 0px 0px #772925;
 }
