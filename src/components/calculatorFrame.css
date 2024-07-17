@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: center;
     gap: 1em;
+    padding: 1em;
+    border-radius: 20px;
+    border: solid #eae3db;
 }
 
 .calculator-frame-content {}
@@ -25,6 +28,7 @@
     background: #181f32;
     border-radius: 20px;
     padding: 1em;
+    border: solid #eae3db;
 }
 
 .calculator-frame-content-middle-display {
@@ -35,4 +39,5 @@
 .calculator-frame-content-bottom {
     background: #181f32;
     border-radius: 20px;
+    border: solid #eae3db;
 }
