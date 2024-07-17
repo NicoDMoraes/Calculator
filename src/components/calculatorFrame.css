@@ -8,8 +8,6 @@
     border: solid #eae3db;
 }
 
-.calculator-frame-content {}
-
 .calculator-frame-content-top {
     display: flex;
     flex-direction: row;
@@ -17,9 +15,9 @@
     color: #FFFFFF;
 }
 
-.calculator-frame-content-top-left {}
+/* .calculator-frame-content-top-left {}
 
-.calculator-frame-content-top-right {}
+.calculator-frame-content-top-right {} */
 
 .calculator-frame-content-middle {
     display: flex;
