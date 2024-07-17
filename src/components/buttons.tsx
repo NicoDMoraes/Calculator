@@ -1,7 +1,7 @@
-import '/buttons/button.css';
+import './buttons.css';
 
 export function Buttons() {
-    return <div>
+    return (<div>
         <div class="buttons">
             <div class="small">
                 <button class="button-number">1</button>
@@ -26,5 +26,5 @@ export function Buttons() {
                 <button class="button-reset">reset</button>
             </div>
         </div>
-    </div>
+    </div>);
 }
