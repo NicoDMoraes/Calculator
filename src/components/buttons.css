@@ -1,16 +1,58 @@
 .buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 1em;
+    gap: 1em;
 }
 
 .small {
-    width: 200px;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.button {
+    background: #eae3db;
+    border: none;
+    border-radius: 2px;
+    width: 4em;
+    height: 2em;
+    color: #3b4664;
+    font-size: bold;
+}
+
+.del {
+    background: #637298;
+    color: #FFFF;
 }
 
 .big {
-    width: 400 px;
-    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.big-button {
+    border: none;
+    border-radius: 2px;
+    width: 9em;
+    height: 2em;
+}
+
+.reset {
+    background: #637298;
+    color: #FFFF;
+}
+
+.equals {
+    background: #d13f30;
+    color: #ffff;
 }

@@ -1,7 +1,7 @@
 import { render } from 'solid-js/web';
 // import { Calculator } from './components/calculator';
-import { Buttons } from './components/buttons.tsx';
+import { CalculatorFrame } from './components/calculatorFrame';
 import './index.css';
 
 
-render(() => <Buttons />, document.getElementById('root') as HTMLElement);
+render(() => <CalculatorFrame />, document.getElementById('root') as HTMLElement);
