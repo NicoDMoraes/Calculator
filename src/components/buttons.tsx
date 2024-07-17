@@ -1,6 +1,6 @@
 import './buttons.css';
 
-export function Buttons() {
+export default function () {
     return (<div>
         <div class="buttons">
             <div class="small">
