@@ -9,6 +9,14 @@ export function CalculatorFrame() {
     createEffect(() => {
         console.log(display());
     });
+    function equals() {
+        if (display() === '') {
+            setDisplay(0);
+        }
+        else {
+            setDisplay(eval(display()));
+        }
+    }
     return (
         <div class="calculator-frame">
             <div class="calculator-frame-content-top">
@@ -57,7 +65,7 @@ export function CalculatorFrame() {
                     </div>
                     <div class="big">
                         <button onClick={() => setDisplay('')} class="big-button reset">RESET</button>
-                        <button class="big-button equals">=</button>
+                        <button onClick={() => equals()} class="big-button equals">=</button>
                     </div>
                 </div>
             </div>
