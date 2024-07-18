@@ -1,6 +1,6 @@
 import { render } from 'solid-js/web';
 // import { Calculator } from './components/calculator';
-import { CalculatorFrame } from './components/calculatorFrame';
+import { CalculatorFrame } from './components/calculator';
 import './index.css';
 
 
