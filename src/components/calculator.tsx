@@ -11,10 +11,10 @@ export function CalculatorFrame() {
     });
     function equals() {
         if (display() === '') {
-            setDisplay(0);
+            setDisplay('0');
         }
         else {
-            setDisplay(eval(display()));
+            String(setDisplay(eval(display())));
         }
     }
     return (
@@ -42,7 +42,7 @@ export function CalculatorFrame() {
                             <button onClick={() => setDisplay(display() + 7)} class="button number">7</button>
                             <button onClick={() => setDisplay(display() + 8)} class="button number">8</button>
                             <button onClick={() => setDisplay(display() + 9)} class="button number">9</button>
-                            <button onClick={() => setDisplay(display().slice(0, -1))} class="button del">DEL</button>
+                            <button onClick={() => setDisplay(String(display()).slice(0, -1))} class="button eraser del">DEL</button>
                         </div>
                         <div class="row 2">
                             <button onClick={() => setDisplay(display() + 5)} class="button number">5</button>
@@ -64,8 +64,8 @@ export function CalculatorFrame() {
                         </div>
                     </div>
                     <div class="big">
-                        <button onClick={() => setDisplay('')} class="big-button reset">RESET</button>
-                        <button onClick={() => equals()} class="big-button equals">=</button>
+                        <button onClick={() => setDisplay('')} class="big-button button eraser reset">RESET</button>
+                        <button onClick={() => equals()} class="big-button button equals">=</button>
                     </div>
                 </div>
             </div>

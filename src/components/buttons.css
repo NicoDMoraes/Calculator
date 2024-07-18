@@ -30,10 +30,20 @@
     box-shadow: 0 2px 0px 0px#b2a399;
 }
 
-.del {
+.button:hover {
+    transform: scale(1.05);
+    background: #ffff;
+    cursor: pointer;
+}
+
+.eraser {
     background: #637298;
     color: #FFFF;
     box-shadow: 0 2px 0px 0px #434f76;
+}
+
+.eraser:hover {
+    background: #a1b3e1;
 }
 
 .big {
@@ -49,14 +59,13 @@
     height: 2em;
 }
 
-.reset {
-    background: #637298;
-    color: #FFFF;
-    box-shadow: 0 2px 0px 0px #434f76;
-}
-
 .equals {
     background: #d13f30;
     color: #ffff;
     box-shadow: 0 2px 0px 0px #772925;
+}
+
+.equals:hover {
+    transform: scale(1.05);
+    background: #f96c5b;
 }
